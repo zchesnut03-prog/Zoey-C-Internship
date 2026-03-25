@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import OwlCarousel from "react-owl-carousel";
 import { getHotCollections } from "../../API/nftAPI";
 import AOS from "aos";

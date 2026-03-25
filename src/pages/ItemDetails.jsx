@@ -183,6 +183,7 @@ const ItemDetails = () => {
                         height:"42px",
                         borderRadius:"50%"
                       }}
+                      alt=""
                     />
 
                     <span style={{
@@ -236,6 +237,7 @@ const ItemDetails = () => {
                         height:"42px",
                         borderRadius:"50%"
                       }}
+                      alt=""
                     />
                     <span style={{
                       position:"absolute",

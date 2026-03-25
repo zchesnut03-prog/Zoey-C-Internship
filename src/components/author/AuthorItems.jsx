@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import { Link } from "react-router-dom";
-import { getExploreItems, getNewItems } from "../../API/nftAPI";
-import { useParams } from "react-router-dom";
 import AOS from "aos";
 
 const AuthorItems = ({ items, authorImage }) => {
