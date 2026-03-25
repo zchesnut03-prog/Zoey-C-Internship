@@ -23,7 +23,55 @@ const ItemDetails = () => {
     loadItem();
   }, [itemId]);
 
-  if (!item) return <div style={{ padding: 80 }}>Loading...</div>;
+  if (!item) {
+  return (
+    <div id="wrapper">
+      <div id="content" className="no-bottom no-top">
+
+        <section className="mt90">
+          <div className="container">
+            <div className="row align-items-stretch">
+
+              <div className="col-lg-6 col-md-7">
+                <div
+                  style={{
+                    width: "100%",
+                    aspectRatio: "1 / 1",
+                    background: "#e0e0e0",
+                    borderRadius: "16px"
+                  }}
+                />
+              </div>
+
+              <div className="col-lg-5 col-md-5">
+                <div style={{ width: "250px", height: "28px", background: "#e0e0e0", marginBottom: "20px" }} />
+
+                <div style={{ display: "flex", gap: "14px", marginBottom: "25px" }}>
+                  <div style={{ width: "80px", height: "36px", background: "#e0e0e0", borderRadius: "10px" }} />
+                  <div style={{ width: "80px", height: "36px", background: "#e0e0e0", borderRadius: "10px" }} />
+                </div>
+
+                <div style={{ width: "100%", height: "80px", background: "#e0e0e0", marginBottom: "20px" }} />
+
+                <div style={{ width: "100px", height: "16px", background: "#e0e0e0", marginBottom: "10px" }} />
+                <div style={{ width: "200px", height: "40px", background: "#e0e0e0", marginBottom: "30px" }} />
+
+                <div style={{ width: "100px", height: "16px", background: "#e0e0e0", marginBottom: "10px" }} />
+                <div style={{ width: "200px", height: "40px", background: "#e0e0e0", marginBottom: "30px" }} />
+
+                <div style={{ width: "80px", height: "16px", background: "#e0e0e0", marginBottom: "10px" }} />
+                <div style={{ width: "120px", height: "30px", background: "#e0e0e0" }} />
+
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  );
+}
 
   return (
     <div id="wrapper">
